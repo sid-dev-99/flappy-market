@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Flappy Market - Hardcore</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="portfolio-card">
+            <div class="card-title">PORTFOLIO VALUE</div>
+            <div class="value">$<span id="portfolio-value">2000</span></div>
+            <div class="percent" id="percent-change">+0.00%</div>
+        </div>
+        <div id="score-display">Score: <span id="score">0</span></div>
+        <div id="difficulty-label">HARDCORE MODE</div>
+        <canvas id="game-canvas"></canvas>
+        <button id="sound-toggle">🔊 Sound ON</button>
+        
+        <div id="start-screen">
+            <h2>Flappy Market</h2>
+            <p>Tap to Start</p>
+        </div>
+
+        <div id="game-over">
+            <h2>Market Crashed!</h2>
+            <div id="final-value">Final Portfolio Value:<br>$2000</div>
+            <div id="high-score">High Score: <span id="high-score-value">$2800</span></div>
+            <button id="restart-button">Try Again</button>
+        </div>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
